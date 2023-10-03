@@ -220,7 +220,7 @@ if config['opnsenseWGName'] == '' or not re.search("^([0-9a-zA-Z._\-]){1,64}$", 
 
 opnsenseURL = config['opnsenseURL']
 
-# List current wireguard instances looking for PIA one
+# List current wireguard instances looking for PIA one from OPNsense
 try:
     r = requests.get(f'{opnsenseURL}/api/wireguard/server/searchServer/', auth=(config['opnsenseKey'], config['opnsenseSecret']), verify=urlVerify)
 except:

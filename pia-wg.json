@@ -1,14 +1,14 @@
 {
-    "opnsenseURL": "https://127.0.0.1",
+    "opnsenseURL": "https://nj1npfw1.console.corp/",
     "opnsenseKey": "",
     "opnsenseSecret": "",
     "opnsenseWGName": "PIA",
     "opnsenseWGPort": "51815",
     "piaUsername": "",
     "piaPassword": "",
-    "piaRegionId": "uk",
-    "piaDipToken": "",
-    "piaPortForward": false,
-    "piaUseDip": false,
+    "piaRegionId": "us",
+    "piaDipToken": "DIP2yh2e1S2Vj9JSFBoZyQUsLTvqTftL",
+    "piaPortForward": true,
+    "piaUseDip": true,
     "tunnelGateway": null
 }
